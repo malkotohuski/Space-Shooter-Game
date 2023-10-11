@@ -33,13 +33,13 @@ window.onload = function () {
         var player_height = 32;
         var playerImg = new Image();
         var score = 0;
-        var health = 100;
+        var health = 200;
         playerImg.src = "https://image.ibb.co/dfbD1U/heroShip.png";
 
         var _bullets = [];
         var bullet_width = 6;
         var bullet_height = 8;
-        var bullet_speed = 10;
+        var bullet_speed = 20;
 
         var _enemies = [];
         var enemyImg = new Image();
